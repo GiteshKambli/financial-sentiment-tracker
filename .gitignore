@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore system and IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore environment-specific files
+*.env
+
+# Ignore any generated or temporary files
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+
+# Ignore log files
+*.log
+
+# Ignore dependencies
+venv/
+
+finbert/
+finbert_finetuned/
